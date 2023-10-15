@@ -29,15 +29,10 @@ async def start(bot: Client, msg: Message):
                 ],
                 [
                     InlineKeyboardButton("**قـنـاة ســورس **️", url="https://t.me/def_Zoka"),
-                    InlineKeyboardButton("** مـطـوريـن الــبـوت **", user_id=OWNER_ID)
+                    InlineKeyboardButton("** مـطـور الــبـوت **", user_id=OWNER_ID)
                 ]
             ]
         ),
         disable_web_page_preview=True,
     )
-", user_id=OWNER_ID)
-                ]
-            ]
-        ),
-        disable_web_page_preview=True,
-    )
+
